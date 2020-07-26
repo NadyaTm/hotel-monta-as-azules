@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Hotel Montañas Azules</title>
+</head>
+<body>
+   <nav>
+    <div class="container"> <!-- contenedor -->
+      <h1> <!-- logo-inicio -->
+      <a href="index.html"></a>
+        <img src="images/logo-hotel-montanas-azules.png" alt="logo-hotel-montañas-azules" title="un lugar para descansar"> <!-- sacar height después -->
+      </h1>
+      <div> <!-- menú de navegación flotante-->
+        <ul>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#habitaciones">Habitaciones</a></li>
+          <li><a href="#reservas">Reservas</a></li>
+          <li><a href="#promociones">Promociones</a></li>
+          <li><a href="#tarifas">Tarifas</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+        </ul>
+      </div>
+      <div> <!-- vínculo redes sociales -->
+        <a href="https://www.facebook.com/"><img src="images/iconos/fb.png" alt="redes-sociales"></a>
+        <a href="https://www.instagram.com/"><img src="images/iconos/ig.jpg" alt="redes-sociales-ig"></a>
+        <a href="https://www.google.com/intl/es/gmail/about/#"><img src="images/iconos/gmail.jpg" alt="correo-electronico"></a>
+      </div>
+     </div> <!-- contenedor -->
+  </nav> <!-- nav flotante -->
+  <header>
+    <div class="bxslider"> <!-- PRIMER SLIDER -->
+      <div><img src="http://via.placeholder.com/1600x400?text=slider" title="slider"></div>
+      <!-- <div><img src="" title=""></div>
+      <div><img src="" title=""></div> -->
+    </div><!-- PRIMER SLIDER -->
+    <div class="container">
+      <div class="row"> <!-- PRIMER FORMULARIO -->
+        <div class="col-2">
+          <form action="formulario.php" method="post">
+            <button type="submit" value="reservar">Reservar</button>
+            <input type="text" name="nombre-apellido" placeholder="Nombre y Apellido" required>
+            <input type="text" name="email" placeholder="tuemail@email.com" required>
+            <input type="date" name="check-in">
+            <input type="date" name="check-out">
+            <select name="Habitación">
+              <option value="" disabled selected>Habitación</option>
+              <option value="simple">Simple</option>
+              <option value="doblele">Doble</option>
+              <option value="triple">Triple</option>
+              <option value="suite">Suite</option>
+            </select>
+          </form>
+        </div>
+      </div>    <!-- PRIMER FORMULARIO -->
+    </div> <!-- container -->
+  </header>
+  <main>
+    <aside> <!-- ARTICULOS DE ENGANCHE -->
+      <div>
+        <img src="images/promos/promo-noche-de-bodas.jpg" alt="promo-noche-de-bodas" title="hotel-montañas-azules-bodas">
+        <a href="">promoción</a>
+      </div>
+      <div>
+        <img src="images/servicios/promo-restaurante.jpg" alt="servicio-restaurante" title="hotel-montañas-azules-restaurante">
+        <a href="">gastronomía</a>
+      </div>
+      <div>
+        <img src="images/servicios/servicio-hotel-spa.jpg" alt="hotel-spa" title="hotel-m-a-spa">
+        <a href="">Spa</a>
+      </div>
+    </aside>
+<hr>                                    <!-- SECTIONS-->                               
+    <section id="nosotros"> <!-- NOSOTROS -->
+      <div class="container"> 
+        <div class="row"> <!-- H2 NOSOTROS -->
+          <div class="col-12">
+            <h2>nosotros</h2>                       
+          </div> <!-- 12 columna -->     
+          <div class="col-8"> <!--  SLIDER -->         
+            <div class="bxslider">
+              <div><img src="http://via.placeholder.com/1600x400?text=slider" title="slider" alt="slider">
+              </div>
+            </div>  
+          </div><!-- slider -->              <!-- slider 8 columnas  -->
+          <div class="col-4"> <!-- TEXTO -->
+            <article>
+              <h3>Nuestra Historia</h3>
+              <p>Ubicado en la provincia de Mendoza, en Lujan de Cuyo al pie de Los  magestuosos Andes, en un lugar hermosos que cuenta con lugares de servicios, esparcimiento, comida, recreación y alojamiento. Un edificio de montaña cálido y confortable destinado a que te desconectes de tu rutina y puedas conectarte solo con la naturaleza. Personal calificado, entrenado y servicial, pendiente de tus necesidades y deseos. Un restaurante con cocina típica y vinos autóctonos dispuesto para tu disfrute. Actividades de turismo aventura contratadas a prestadores de confianza destinadas a formar recuerdos y vivencias inolvidables.</p>            
+            </article>
+          </div>  <!-- texto 4 columnas  -->
+        </div> <!-- row slider+texto -->
+      </div><!-- container -->       
+    </section> <!-- NOSOTROS -->
+<hr>
+    <section id="servicios"> <!-- SERVICIOS -->
+      <div class="container"> 
+        <div class="row"> <!-- H2 SERVICIOS -->
+          <div class="col-12">
+            <h2>servicios</h2>                       
+          </div> 
+          <hr> <!-- IMAGEN + TEXTO 1 (servicio de habitación)-->
+          <div class="col-8"> <!-- IMAGEN -->        
+            <img src="images/servicios/servicio-gym-spa.jpg" alt="servicio-de-spa"> <!-- cambiar imagen -->
+          </div> <!-- imagen 8 col -->
+          <div class="col-4"> <!-- TEXTO -->
+            <article>
+              <h3>Nuestro servicio de habitación</h3>
+              <p>Ofrecemos desayuno buffet con variedad de tostadas, budines, jugos, infusiones, frutas, yogurt y cereales, incluido en la tarifa. Bar y confiteria abierto las 24 hs Room Service Servicio de lavandería y planchado con costo adicional Sala de reuniones Cochera cubierta   Estacionamiento de cortesia Circuito cerrado de vigilancia</p>            
+            </article>
+          </div> <!-- texto 4 columnas  -->
+            <hr><!-- TEXTO + slider 2 (servicio de restaurante)-->
+          <div class="col-4"> <!-- TEXTO -->
+            <article>             
+                <h3>Nuestro Restaurante</h3>
+                <p>Abierto para el almuerzo y la cena, este restaurante invita a los comensales a una fusión de sabores regionales y cocina moderna e internacional.</p>             
+            </article>
+          </div>  
+          <div class="col-8">
+            <div><img src="http://via.placeholder.com/1600x400?text=slider" title="slider" alt="slider"></div>          
+          </div> <!-- slider 8 col -->          
+          <hr><!-- IMAGEN + TEXTO 3 (servicio de spa)-->
+          <div class="col-8"> <!-- IMAGEN -->           
+            <img src="images/servicios/servicio-gym-spa.jpg" alt="servicio-de-spa"> <!-- cambiar imagen -->
+          </div> <!-- imagen 8 col -->
+          <div class="col-4"> <!-- TEXTO -->
+            <article>
+              <h3>Nuestro Spa</h3>
+              <p>El hotel cuenta con su propio spa, con una gran variedad de servicios como manicuras, pedicuras, tratamientos faciales y relajantes masajes. También dispone de 2 saunas y una sala de vapor, de libre acceso para los huéspedes.El spa ofrece a los huéspedes salas para tratamientos y distintas saunas. Disfruta de una sauna finlandesa y una sala de vapor.</p>
+              <div>
+                <ul>
+                  <li>Todos los días de 9:00 a 21:00</li>
+                  <li>sauna</li>
+                  <li>sauna finlandesa</li>
+                  <li>sala de vapor (baño turco)</li>
+                </ul>
+              </div>
+            </article>
+          </div> <!-- texto e imagen 4 columnas  -->
+        </div> <!-- row img+text1-->
+      </div> <!-- container servicios -->
+    </section>
+<hr>
+    <section id="habitaciones"> <!-- HABITACIONES -->
+      <div class="container">  
+        <div class="row"> <!-- H2 HABITACIONES -->
+          <div class="col-12">
+            <h2>habitaciones</h2>                       
+          </div> <!-- 12 columna -->        
+          <hr><!-- IMAGEN + TEXTO 1 (hab. simple)-->
+          <div class="col-8"> <!-- img+text-simple 12 columnas -->           
+            <img src="images/rooms/simple.jpg" alt="simple" title="las mejores habitaciones">
+          </div>
+          <div class="col-4"> <!-- TEXTO -->
+            <article>
+              <h3>simple</h3>
+              <p>Si quieres viajar solo, la habitación individual responde a tus necesidades. Tendrás el espacio suficiente que necesitas descansar durante tus viajes profesionales o de ocio. </p>
+              <h4>Las estadías incluyen desayuno buffet y acceso ilimitado a nuestros servicios e instalaciones.</h4>
+              <div>
+                <ul>
+                  <li>Desayuno buffet</li>
+                  <li>Wi-Fi gratuita</li>
+                  <li>Cable TV 75 canales</li>
+                  <li>Baño Completo</li>
+                  <li>Teléfono DDI</li>
+                  <li>Wi-Fi gratuita</li>
+                  <li>Aire Acondicionado</li>
+                  <li>Frigobar</li>
+                </ul>
+              </div>             
+            </article>
+          </div> <!-- img+text-simple 4 columnas  -->        
+          <hr><!-- TEXTO+IMAGEN 2 (hab. doble)-->
+          <div class="col-4"> <!-- TEXTO -->
+            <article>              
+              <h3>doble</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam nisi eligendi voluptate fugit atque officiis optio earum explicabo, eum consectetur, consequatur mollitia obcaecati excepturi quia rem quae ut nostrum velit.</p>
+              <h4>Las estadías incluyen desayuno buffet y acceso ilimitado a nuestros servicios e instalaciones.</h4>
+              <div>
+                <ul>
+                  <li>Desayuno buffet</li>
+                  <li>Wi-Fi gratuita</li>
+                  <li>Cable TV 75 canales</li>
+                  <li>Baño Completo</li>
+                  <li>Teléfono DDI</li>
+                  <li>Wi-Fi gratuita</li>
+                  <li>Aire Acondicionado</li>
+                  <li>Frigobar</li>
+                </ul>
+              </div>
+            </article>  
+          </div> <!-- texto 4 columnas  -->              
+          <div class="col-8"> 
+            <img src="images/rooms/doble.jpg" alt="habitacion doble" title="las mejores habitaciones">  <!-- cambiar imagen -->         
+          </div> <!-- imagen 8 col -->
+          <hr><!-- IMAGEN + TEXTO 3 (hab. triple)-->
+          <div class="col-8"> <!-- IMAGEN -->            
+            <img src="images/rooms/triple.jpg" alt="habitacion-triple" title="las mejores habitaciones"> <!-- revisar imagen -->                
+          </div> <!-- imagen 8 col -->              
+          <div class="col-4"> <!-- TEXTO -->
+            <article>
+              <h3>triple</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam nisi eligendi voluptate fugit atque officiis optio earum explicabo, eum consectetur, consequatur mollitia obcaecati excepturi quia rem quae ut nostrum velit.</p>
+              <h4>Las estadías incluyen desayuno buffet y acceso ilimitado a nuestros servicios e instalaciones.</h4>
+              <div>
+                <ul>
+                  <li>Desayuno buffet</li>
+                  <li>Wi-Fi gratuita</li>
+                  <li>Cable TV 75 canales</li>
+                  <li>Baño Completo</li>
+                  <li>Teléfono DDI</li>
+                  <li>Wi-Fi gratuita</li>
+                  <li>Aire Acondicionado</li>
+                  <li>Frigobar</li>
+                </ul>
+              </div>
+            </article>
+          </div> <!-- texto 4 columnas  -->        
+          <hr> <!-- TEXTO+IMAGEN 4 (hab. suite)-->
+          <div class="col-4"> <!-- TEXTO -->
+            <article>              
+              <h3>suite</h3>
+              <p>Camas Matrimonial con Sommier. Habitación doble con baño y salón de 12 m2 de superficie.</p>
+              <h4>Las estadías incluyen desayuno buffet y acceso ilimitado a nuestros servicios e instalaciones.</h4>
+              <div>
+                <ul>
+                  <li>Desayuno buffet</li>
+                  <li>Wi-Fi gratuita</li>
+                  <li>Cable TV 75 canales</li>
+                  <li>Baño Completo</li>
+                  <li>Teléfono DDI</li>
+                  <li>Wi-Fi gratuita</li>
+                  <li>Aire Acondicionado</li>
+                  <li>Frigobar</li>
+                </ul>
+              </div>
+            </article>  <!-- texto 4 columnas  -->
+          </div>             
+          <div class="col-8"> <!-- IMAGEN -->
+            <img src="images/rooms/suite.jpg" alt="suite" title="las mejores habitaciones">
+          </div>    
+        </div> <!-- row img+text-suite-->
+      </div> <!-- container --> 
+    </section> <!-- HABITACIONES -->
+<hr>
+    <section id="reservas"> <!-- RESERVAS -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>reservas</h2>
+          </div>               
+          <div class="col-12">
+            <div> <!-- FORMULARIO -->
+              <form action="formulario.php" method="post">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" required>
+                <label for="direccion">Dirección</label>
+                <input type="text" id="direccion" name="Dirección">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="tuemail@email.com" required>
+                <label for="lugar">Ciudad, provincia/estado y país</label>
+                <input type="text" id="lugar" name="Ciudad/provincia/país">
+                <label for="tel">Teléfono</label>
+                <input type="tel" id="tel" name="telefono">
+                <input type="date" name="check-in">
+                <input type="date" name="check-out">
+                <label for="adulto"></label>
+                <select name="Adultos" id="adulto">
+                  <option value="" disabled selected>Adultos</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4+">4+</option>
+                </select>
+                <label for="menor"></label>
+                <select name="Menores" id="menor">
+                  <option value="" disabled selected>Menores</option>
+                  <option value="Bebé">Menor de 2 año</option>
+                  <option value="Ninguno">Ninguno</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3+">3</option>
+                </select>
+                <label for="habitacion"></label>
+                <select name="Habitación" id="habitacion">
+                  <option value="" disabled selected>Habitación</option>
+                  <option value="simple">Simple</option>
+                  <option value="doblele">Doble</option>
+                  <option value="triple">Triple</option>
+                  <option value="suite">Suite</option>
+                </select>
+                <button type="submit" value="reservar">Reservar</button>
+                <div> <!-- Área de texto - consulta usuario -->
+                  <label for="consulta">Información adicional</label>
+                  <textarea name="consulta" id="consulta" cols="60" rows="10">A la brevedad nos comunicaremos con usted, gracias.</textarea>
+                </div>
+                <div> <!-- chekbox -->
+                  <label for="terminosycondiciones">Acepto los terminos y condiciones</label>
+                  <input type="checkbox" id="terminosycondiciones" value="acepto" required>
+                  <label for="politicasdecancelacion">Acepto las políticas de cancelación</label>
+                  <input type="checkbox" id="politicasdecancelacion" value="acepto" required>
+                </div>
+              </form>
+            </div> <!-- formulario -->
+          </div> <!-- col-12 -->
+        </div> <!-- row -->          
+      </div> <!-- container -->
+    </section> <!-- RESERVAS -->
+<hr>  
+    <section id="promociones"> <!-- PROMOCIONES -->
+      <div class="container">
+        <div class="row"> <!-- H2 PROMOCIONES -->
+          <div class="col-12">
+            <h2>promociones</h2>                       
+          </div> <!-- 12 columna -->      
+          <div class="col-6"><!-- promo 1 -noche de bodas  -->
+            <article>
+              <img src="images/promos/promo-noche-de-bodas.jpg" alt="promo-noche-de-bodas" title="Una noche inolvidable">
+              <h3>noche de bodas</h3>
+              <p>Los nervios del día antes… la ilusión del día de la Boda… el recuerdo de la noche… Para esta fecha tan especial y única en vuestras vidas hemos diseñado un paquete inolvidable… </p>
+              <div>
+                <ul>
+                  <li>Alojamiento para dos personas con arreglo floral en la habitación</li>
+                  <li>Desayuno Pulitzer servido en la Habitacion</li>
+                  <li>Una botella de champagne y pettit fours</li>
+                  <li>2 sesiones de Spa sin cargo</li>
+                  <li>Check in 14hs</li>
+                  <li>Check out 16hs</li>
+                </ul>
+              </div>
+              <a href="#reservas">reservar</a>
+            </article>
+          </div> <!-- col-6 -->      
+          <div class="col-6"><!-- promo 2 -aniversario  -->
+            <article>
+              <img src="images/promos/aniversario.jpg" alt="promo-aniversario" title="Una noche especial">
+              <h3>aniversarios</h3>
+              <p>Si quieres dar una sorpresa a tu pareja, opta por una habitación romántica y vuelve a conquistarla. Una opción es reservar una habitación con jacuzzi para disfrutar de una velada íntima...</p>
+              <div>
+                <ul>
+                  <li>Desayuno Pulitzer servido en la Habitacion</li>
+                  <li>Una botella de champagne y pettit fours</li>
+                  <li>2 sesiones de Spa sin cargo</li>
+                  <li>Check in 14hs</li>
+                  <li>Check out 16hs</li>
+                </ul>
+              </div>
+              <a href="#reservas">reservar</a>
+            </article>
+          </div> <!-- col-6 -->      
+          <div class="col-6"><!-- promo 3 -eventos -->
+            <article>
+              <img src="images/promos/eventos-hotel.jpg" alt="promo-eventos" title="Realiza tu evento con nosotros"> <!-- revisar imagen -->
+              <h3>Eventos</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quas sapiente assumenda beatae quo ex, natus eius, accusantium voluptatem ratione, sit harum sunt ipsum porro aliquam accusamus esse minus quaerat.</p>
+              <a href="#reservas">reservar</a>
+            </article>
+          </div>         
+          <div class="col-6"><!-- promo 4  -clientes-frecuentes -->
+            <article>
+              <img src="images/promos/clientes-frecuentes.jpg" alt="promo-nuestros-clientes" title="Siempre pensando en vos"> 
+              <h3>clientes frecuentes</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quas sapiente assumenda beatae quo ex, natus eius, accusantium voluptatem ratione, sit harum sunt ipsum porro aliquam accusamus esse minus quaerat.</p>
+              <a href="#reservas">reservar</a>
+            </article>
+          </div> <!-- col-6 -->
+        </div> <!-- row promo 4-->
+      </div> <!-- container -->
+    </section> <!-- PROMOCIONES -->
+<hr>
+    <section id="tarifas"> <!-- TARIFAS -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Tarifas</h2>
+          </div>   
+          <div class="col-8"> <!-- slider habitaciones-tarifas -->
+            <img src="http://via.placeholder.com/1600x400?text=slider" title="slider" alt="slider">
+          </div>            
+          <div class="col-4"><!--  col-4 texto habitaciones-tarifas -->
+            <article>     
+              <h3>Habitaciones</h3>
+              <p>En nuestras habitaciones le ofrece el mejor servicio y confort, brindandoles un lugar ideal para disfrutar de su estadia. Nuestra atencion personalizada garantiza la excelencia y calidad de nuestro servicio.</p>                             
+            </article>
+          </div>        
+          <div class="col-12">
+            <aside> <!-- Tabla de tarifas --> <!-- PROVISORIO -->
+               <table>
+                <thead>
+                  <tr>
+                    <th>HABITACIONES</th>
+                    <th>UNA NOCHE</th>
+                    <th>DOS NOCHES</th>
+                    <th>TRES NOCHES</th>
+                    <th>PROMOCIONES</th>
+                  </tr>
+                </thead> 
+                <tbody>
+                  <tr>
+                    <td>Simple</td>
+                    <td>Doble</td>
+                    <td>Triple</td>
+                    <td>Suite</td>
+                    <td>Suite-nupcial</td>
+                  </tr>
+                </tbody>
+              </table>
+            </aside>      
+          </div>        
+          <div class="col-8"><!-- condiciones y formas de pago -->
+            <article>              
+              <h6>condiciones y formas de pago</h6>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dolor provident repellat ex asperiores! Temporibus sit illo, tempore neque distinctio atque doloremque pariatur id necessitatibus repellat! Accusantium eveniet quia sapiente!</p>
+            </article>
+          </div>              
+          <div class="col-4">
+            <div> <!-- logos tarjetas -->
+              <img src="images/iconos/mastercard.png" alt="mastercard" title="consulta por otas formas de pago">
+              <img src="images/iconos/visa.png" alt="visa" title="consulta por otras formas de pago">
+            </div>
+          </div>                  
+        </div> <!-- row -->
+      </div> <!-- container -->
+    </section><!--  TARIFAS -->
+<hr>
+    <section id="ubicacion"> <!-- UBICACIÓN --> <!-- agregar captcha -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>ubicación</h2>
+          </div>                
+          <div class="col-4">
+            <article>
+              <h3>Contactos</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus soluta neque ratione alias omnis qui recusandae consequuntur voluptate accusantium nihil consequatur modi asperiores vero fugit, quisquam atque sit molestiae autem!</p> <!-- agregar links emal y teléfono -->
+            </article>
+          </div>        
+          <div class="col-8">
+            <article>
+              <h5>Para contactarte con nosotros, por favor completá el siguiente formulario.</h5>
+              <div> <!-- Área de texto - consulta usuario -->
+                <label for="contacto">Información adicional</label>
+                <textarea name="cotacto" id="contacto" cols="60" rows="10">A la brevedad nos comunicaremos con usted, gracias.</textarea>
+              </div>
+              <div> <!-- mapa -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.2818569754045!2d-69.0917459847861!3d-34.010975380617225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967c061bbfe3c7db%3A0x39fbc6c93233d681!2sKm%2060%2C%20RN40%2020%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1595636829274!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+            </article> 
+          </div>
+        </div> <!-- row -->
+      </div> <!-- container -->
+    </section> <!-- UBICACIÒN --> 
+  </main>
+<hr>
+  <footer> <!-- FOOTER -->
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div>
+            <p>Ruta Nacional Nº 20, Km 60 Luján de Cuyo Mendoza, Argentina.</p>
+          </div>
+          <div>
+            <a href="tel:02624423587">02624 423587</a>
+            <a href="https://api.whatsapp.com/send?phone=542616008640&text=Quisiera%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre...">WhatsApp</a>
+            <a href="mailto:contacto@hotelmontañasazules.com">contacto@hotelmontañasazules.com</a>      
+          </div>
+        </div>          
+        <div class="col-4">
+          <img src="images/logo-hotel-montanas-azules.png" alt="logo-hotel-montañas-azules" height="100"> <!-- cambiar png tamaño logo -->
+        </div>      
+        <div class="col-4"><!-- cambiar iconos -->
+          <a href="https://www.facebook.com/"><img src="images/iconos/fb.png" alt="redes-sociales" height="50"></a>
+          <a href="https://www.instagram.com/"><img src="images/iconos/ig.jpg" alt="redes-sociales-ig" height="50"></a>
+          <a href="https://www.google.com/intl/es/gmail/about/#"><img src="images/iconos/gmail.jpg" alt="correo-electronico" height="50"></a>
+        </div>
+      </div> <!-- row -->
+    </div> <!-- container  --> 
+  </footer>
+</body>
+</html>
